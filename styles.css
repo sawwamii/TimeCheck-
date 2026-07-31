@@ -1,27 +1,106 @@
+@font-face {
+  font-family: textFont;
+  src: url('fonts/Uni-Neue-Book.woff2') format('woff2');
+}
+@font-face {
+  font-family: textFontHeavy;
+  src: url('fonts/Uni-Neue-Heavy.woff2') format('woff2');
+}
+@font-face {
+  font-family: headerFont;
+  src: url('fonts/intro-rust-base.otf') format('opentype');
+}
 body {
   background-color: rgb(255, 245, 222);
+  margin: 0;
+  padding: 0;
 }
 h1 {
-  color: blue;
+  color: rgb(42, 100, 101);
+  font-family: textFontHeavy;
+  text-align: center;
+  font-size: 2.5vw;
+  margin-bottom: 0%;
 }
 p {
-  color: red;
+  color: rgb(33, 43, 49);
+  font-family: textFont;
+  font-weight: bold;
 }
+
 .topnav {
-  background-color: #333;
+  background-color: rgb(42, 100, 101);
   overflow: hidden;
+  height: 5vw;
+  width: 100vw;
 }
 
 .topnav a {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1.8vw 2vw;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.2vw;
+  font-family: textFont;
+  font-weight: bold;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  color: rgb(255, 194, 103);
+  font-weight: bold;
+  font-family: textFontHeavy;
+}
+
+.topnavBorder {
+  background-color: rgb(231, 147, 22);
+  height: 1vw;
+  width: 100vw;
+}
+.websiteName {
+  color: white;
+  font-size: 2vw;
+  font-family: headerFont;
+  float: right;
+  padding: 0.01vw 2.5vw;
+}
+
+.welcomeMessage {
+  text-align: center;
+  font-size: 2vw;
+  margin-top: 0%;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5vw;
+}
+
+.introductionBlock, .calculatorBlock, .aboutBlock {
+  flex: 1;
+  margin: 0 2vw 2vw 2vw;
+  width: 30vw;
+  height: 50vw;
+}
+
+.kidOnPhone, .threeKids, .aboutUs {
+  width: 25vw;
+  border-radius: 2vw;
+}
+
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column; 
+  }
+}
+
+footer {
+  background-color: rgb(70, 150, 147);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 10vw;
+  width: 100vw;
 }
