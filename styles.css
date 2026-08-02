@@ -22,10 +22,21 @@ h1 {
   font-size: 3vw;
   margin-bottom: 0%;
 }
+
+h4 {
+  color: rgb(42, 100, 101);
+  font-family: textFontHeavy;
+  text-align: center;
+  font-size: 2vw;
+  margin-bottom: 0%;
+}
+
 p {
   color: rgb(33, 43, 49);
   font-family: textFont;
   font-weight: bold;
+  text-align: center;
+  font-size: 1vw;
 }
 
 .topnav {
@@ -65,7 +76,7 @@ p {
   padding: 0.01vw 2.5vw;
 }
 
-.welcomeMessage {
+.message {
   text-align: center;
   font-size: 2.5vw;
   margin-top: 0%;
@@ -75,20 +86,24 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 5vw;
+  margin-top: 3vw;
 }
 
 .introductionBlock, .calculatorBlock, .aboutBlock {
   flex: 1;
   margin: 0 2vw 2vw 2vw;
-  width: 20vw;
+  width: 30vw;
   height: 50vw;
 }
 
 .kidOnPhone, .threeKids, .aboutUs {
   width: 25vw;
   border-radius: 2vw;
-  margin-left: 2vw;
+  align-self: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0.8vw 0.8vw rgba(231, 147, 22, 0.466);
 }
 
 @media (max-width: 768px) {
@@ -97,11 +112,22 @@ p {
   }
 }
 
+.button {
+  color: white;
+  background-color: rgb(231, 147, 22);
+  font-family: headerFont;
+  width: 25vw;
+}
+
 footer {
   background-color: rgb(70, 150, 147);
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   height: 5vw;
-  width: 100vw;
+  width: 100%;
+}
+
+.copyrightInfo {
+  color: white;
 }
