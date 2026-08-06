@@ -78,6 +78,13 @@ p {
   width: 100vw;
 }
 
+.logo {
+  float: left;
+  width: 5vw;
+  height: 3vw;
+  margin: 1vw;
+}
+
 .websiteName {
   color: white;
   font-size: 2vw;
@@ -154,9 +161,15 @@ footer {
   padding: 2vw;
 }
 
+.footerInfo {
+  display: inline-block;
+  width: 40vw;
+  margin-left: 5vw;;
+}
+
 div.contactInfo {
   width: 30vw;
-  height: 1.5vw;
+  height: 2vw;
   margin: 0%;
 }
 
@@ -164,8 +177,11 @@ p.contactInfo {
   display: inline-block;
   color: white;
   font-size: 1vw;
-  margin: 0%;
   width: 20vw;
+  height: 1.8vw;
+  text-align: left;
+  margin-bottom: 0.5vw;
+  margin-top: 0%;
 }
 
 .emailIcon, .phoneIcon {
@@ -173,6 +189,8 @@ p.contactInfo {
   width: 1.5vw;
   height: 1.5vw;
   margin-right: 0.5vw;
+  margin-top: 0.5vw;
+  position: relative;
 }
 
 p.copyrightInfo {
