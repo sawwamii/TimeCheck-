@@ -164,6 +164,64 @@ p {
   font-size: 3.2vw;
 }
 
+.calculator{
+  width: 50vw;
+  height: 50vw;
+  margin: 0vw 3vw 3vw 3vw;
+  border-radius: 2vw;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.editableTable {
+  width: 50vw;
+  height: 30vw;
+  border-collapse: collapse;
+  overflow: hidden;
+  margin-bottom: 24px;
+  align-items: center;
+}
+
+.editableTable th {
+  font-family: textFontHeavy;
+  font-size: 2.5vw;
+  color: rgb(42, 100, 101);
+  padding: 2vw 2vw 0vw 2vw;
+}
+
+
+.editableTable td {
+  padding: 0.2vw;
+  align-items: center;
+}
+
+.editableTable input {
+  width: 24.2vw;
+  padding: 0.6vw;
+  margin: 0.2vw;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 1vw;
+  font-family: textFontHeavy;
+  color: #1e293b;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+}
+
+.computeButton {
+  background-color: rgb(231, 147, 22);
+  color: white;;
+  font-family: headerFont;
+  font-size: 2.5vw;;
+  width: 15vw;
+  height: 4vw;
+  border: none;
+  border-radius: 2vw;
+  text-align: center;
+  margin: auto;
+  line-height: 2vw; 
+}
+
 footer {
   background-color: rgb(70, 150, 147);
   position: relative;
