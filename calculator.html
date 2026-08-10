@@ -16,63 +16,67 @@
         </div>
         <div>
             <div class = "topnavBorder"></div>
-            <p class = "message1">Read each step carefully below before trying it out:</p>
+            <p class = "message3">Input and Compute Your Hours to Find the Activities Fit for You!</p>
         </div>
-        <div class = "calculator">
-            <table class = "editableTable">
-                <thead>
-                    <tr>
-                        <th>App Used</th>
-                        <th>Time Spent (in Hours)</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><input type = "text" name = "app1"></td>
-                        <td><input type = "number" name = "hours1" class = "hourInput"></td>
-                    </tr>
-                    <tr>
-                        <td><input type = "text" name = "app2"></td>
-                        <td><input type = "number" name = "hours2" class = "hourInput"></td>
-                    </tr>
-                    <tr>
-                        <td><input type = "text" name = "app3"></td>
-                        <td><input type = "number" name = "hours3" class = "hourInput"></td>
-                    </tr>
-                    <tr>
-                        <td><input type = "text" name = "app4"></td>
-                        <td><input type = "number" name = "hours4" class = "hourInput"></td>
-                    </tr>
-                    <tr>
-                        <td><input type = "text" name = "app5"></td>
-                        <td><input type = "number" name = "hours5" class = "hourInput"></td>
-                    </tr>
-                    <tr>
-                        <td><input type = "text" name = "app6"></td>
-                        <td><input type = "number" name = "hours6" class = "hourInput"></td>
-                    </tr>
-                    <tr>
-                        <td><input type = "text" name = "app7"></td>
-                        <td><input type = "number" name = "hours7" class = "hourInput"></td>
-                    </tr>
-                    <tr>
-                        <td><input type = "text" name = "app8"></td>
-                        <td><input type = "number" name = "hours8" class = "hourInput"></td>
-                    </tr>
-                    <tr>
-                        <td><input type = "text" name = "app9"></td>
-                        <td><input type = "number" name = "hours9" class = "hourInput"></td>
-                    </tr>
-                    <tr>
-                        <td><input type = "text" name = "app10"></td>
-                        <td><input type = "number" name = "hours10" class = "hourInput"></td>
-                    </tr>
-                </tbody>
-            </table>
-            <button class = "computeButton" type = "button" onclick = "computeTotal()">Compute</button>
-            <p>Total Hours Spent: <span id = "totalHoursDisplay">0</span> hours</p>
+        <div class = "flexContainer">
+            <div class = "calculator">
+                <table class = "editableTable">
+                    <thead>
+                        <tr>
+                            <th>App Used</th>
+                            <th>Time Spent (in Hours)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type = "text" name = "app1"></td>
+                            <td><input type = "number" name = "hours1" class = "hourInput"></td>
+                        </tr>
+                        <tr>
+                            <td><input type = "text" name = "app2"></td>
+                            <td><input type = "number" name = "hours2" class = "hourInput"></td>
+                        </tr>
+                        <tr>
+                            <td><input type = "text" name = "app3"></td>
+                            <td><input type = "number" name = "hours3" class = "hourInput"></td>
+                        </tr>
+                        <tr>
+                            <td><input type = "text" name = "app4"></td>
+                            <td><input type = "number" name = "hours4" class = "hourInput"></td>
+                        </tr>
+                        <tr>
+                            <td><input type = "text" name = "app5"></td>
+                            <td><input type = "number" name = "hours5" class = "hourInput"></td>
+                        </tr>
+                        <tr>
+                            <td><input type = "text" name = "app6"></td>
+                            <td><input type = "number" name = "hours6" class = "hourInput"></td>
+                        </tr>
+                        <tr>
+                            <td><input type = "text" name = "app7"></td>
+                            <td><input type = "number" name = "hours7" class = "hourInput"></td>
+                        </tr>
+                        <tr>
+                            <td><input type = "text" name = "app8"></td>
+                            <td><input type = "number" name = "hours8" class = "hourInput"></td>
+                        </tr>
+                        <tr>
+                            <td><input type = "text" name = "app9"></td>
+                            <td><input type = "number" name = "hours9" class = "hourInput"></td>
+                        </tr>
+                        <tr>
+                            <td><input type = "text" name = "app10"></td>
+                            <td><input type = "number" name = "hours10" class = "hourInput"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button class = "computeButton" type = "button" onclick = "computeTotal()">Compute</button>
+                <p class = "totalHoursDisplay">Total Hours Spent: <span id = "totalHoursDisplay">0</span> hours</p>
+            </div>
+            <div class = "activityList">
+                <p> This is a test message</p>
+            </div>
         </div>
-    
         <footer>
             <div class = "footerInfo">
                 <h5>Contact Us!</h5>
