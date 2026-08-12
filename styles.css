@@ -134,7 +134,7 @@ p {
   height: 15vw;
 }
 
-.kidOnPhone, .threeKids, .aboutUs {
+.nzKidsOnPhone, .threeKids, .aboutUs {
   width: 25vw;
   border-radius: 2vw;
   align-self: center;
@@ -173,11 +173,9 @@ p {
 }
 
 .calculator{
-  flex: 1;
+  flex: 0.5;
   width: 50vw;
   height: 50vw;
-  margin: 0vw 0vw 0vw 2vw;
-  border-radius: 2vw;
   background-color: rgb(255, 254, 239);
   display: inline-block;
 }
@@ -227,7 +225,7 @@ p {
   border: none;
   border-radius: 2vw;
   text-align: center;
-  margin: 0.5vw 0.5vw 0.5vw 16vw;
+  margin: 1.5vw 0.5vw 0.5vw 16vw;
   line-height: 2vw; 
 }
 
@@ -243,13 +241,29 @@ p {
 }
 
 .activityList {
-  flex: 1;
-  width: 10vw;
+  flex: 0.5;
+  width: 50vw;
   height: 50vw;
-  margin: 0vw 0vw 0vw 0vw;
-  border-radius: 2vw;
   background-color: rgb(255, 254, 239);
   display: block;
+}
+
+.activityHeader {
+  width: 50vw;
+  font-family: textFontHeavy;
+  font-size: 3vw;
+  color: rgb(42, 100, 101);
+  text-align: center;
+  margin-bottom: 0.5vw;
+  margin-top: 1.5vw;
+}
+
+.activitiesHeader {
+  color: rgb(42, 100, 101);
+  font-family: textFont;
+  font-weight: bold;
+  font-size: 2vw;
+  margin-left: 3vw;
 }
 
 footer {
