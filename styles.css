@@ -11,7 +11,7 @@
   src: url('fonts/intro-rust-base.otf') format('opentype');
 }
 body {
-  background-color: rgb(255, 245, 222);
+  background-color: rgb(255, 255, 247);
   margin: 0;
   padding: 0;
   height: 30vw;
@@ -187,7 +187,7 @@ p {
   flex: 0.5;
   width: 50vw;
   height: 50vw;
-  background-color: rgb(255, 254, 239);
+  background-color: rgb(255, 250, 225);
   display: inline-block;
 }
 
@@ -255,7 +255,7 @@ p {
   flex: 0.5;
   width: 50vw;
   height: 50vw;
-  background-color: rgb(255, 254, 239);
+  background-color: rgb(255, 250, 225);
   display: block;
 }
 
@@ -283,6 +283,27 @@ li {
   color: rgb(42, 100, 101);
   width: 37vw;
   margin-left: 5vw;
+}
+
+.paragraph1 {
+  width: 65vw;
+  font-size: 1.5vw;
+  text-align: justify;
+  margin-left: 4vw;
+  margin-top: 0vw;
+  display: inline-block;
+}
+
+.otago {
+  color: rgb(25, 67, 190);
+  text-decoration: none;
+}
+
+.moiraSmith {
+  width: 20vw;
+  height: 23.5vw;
+  margin-left: 5vw;
+  display: inline-block;
 }
 
 footer {
