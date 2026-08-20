@@ -88,9 +88,16 @@ p {
 }
 
 .topnav a:hover {
-  color: rgb(255, 194, 103);
+  color: rgb(255, 245, 222);
   font-weight: bold;
   font-family: textFontHeavy;
+}
+
+.topnav a.active {
+  background-color: rgb(231, 147, 22);
+  font-weight: bold;
+  font-family: textFontHeavy;
+  color: rgb(42, 100, 101);
 }
 
 .topnavBorder {
