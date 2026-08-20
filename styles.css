@@ -2,26 +2,47 @@
   font-family: textFont;
   src: url('fonts/Uni-Neue-Book.woff2') format('woff2');
 }
+
 @font-face {
   font-family: textFontHeavy;
   src: url('fonts/Uni-Neue-Heavy.woff2') format('woff2');
 }
+
 @font-face {
   font-family: headerFont;
   src: url('fonts/intro-rust-base.otf') format('opentype');
 }
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
 body {
   background-color: rgb(255, 255, 247);
   margin: 0;
   padding: 0;
   height: 30vw;
 }
+
 h1 {
   color: rgb(42, 100, 101);
   font-family: textFontHeavy;
   text-align: center;
   font-size: 3vw;
   margin-bottom: 0%;
+  animation-name: fadeInUp;
+  animation-duration: 0.6s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
 }
 
 h4 {
@@ -106,6 +127,10 @@ p {
   text-align: center;
   font-size: 2.5vw;
   margin-top: 0%;
+  animation-name: fadeInUp;
+  animation-duration: 0.75s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
 }
 
 .message2 {
@@ -113,6 +138,10 @@ p {
   font-size: 2vw;
   margin-top: 0.2vw;
   margin-bottom: 0vw;
+  animation-name: fadeInUp;
+  animation-duration: 0.75s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
 }
 
 .message3 {
@@ -121,6 +150,10 @@ p {
   margin-top: 1vw;
   margin-bottom: 1vw;
   color: rgb(42, 100, 101);
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
 }
 
 
@@ -137,11 +170,36 @@ p {
   height: 45vw;
 }
 
+.introductionBlock {
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+}
+
+.calculatorBlock {
+  animation-name: fadeInUp;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+}
+
+.aboutBlock {
+  animation-name: fadeInUp;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+}
+
 .stepBlock {
   flex: 1;
   margin: 0 3.5vw 3.5vw 3.5vw;
   width: 25vw;
   height: 30vw;
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
 }
 
 .nzKidsOnPhone, .threeKids, .aboutUs {
@@ -198,6 +256,10 @@ p {
   height: 50vw;
   background-color: rgb(255, 250, 225);
   display: inline-block;
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
 }
 
 .editableTable {
@@ -266,6 +328,10 @@ p {
   height: 50vw;
   background-color: rgb(255, 250, 225);
   display: block;
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
 }
 
 .activityHeader {
@@ -302,6 +368,10 @@ li {
   margin-top: 0vw;
   display: inline-block;
   vertical-align: top;
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
 }
 
 .otago {
@@ -316,6 +386,10 @@ li {
   display: inline-block;
   border-radius: 2vw;
   box-shadow: 0.8vw 0.8vw rgba(231, 147, 22, 0.466);
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
 }
 
 label {
@@ -417,9 +491,18 @@ p.contactInfo {
   position: relative;
 }
 
-div.footerRedirectories {
+div.footerRedirectory {
   display: inline-block;
   width: 30vw;
+}
+
+.feedbackContainer {
+  background-color: rgb(255, 250, 225);
+  height: 28vw;
+  animation-name: fadeInUp;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
 }
 
 .feedbackRedirect {
