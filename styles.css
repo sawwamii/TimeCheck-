@@ -45,7 +45,7 @@ h1 {
   animation-fill-mode: both;
 }
 
-h4 {
+h2 {
   color: rgb(42, 100, 101);
   font-family: textFontHeavy;
   text-align: center;
@@ -53,11 +53,12 @@ h4 {
   margin-bottom: 0%;
 }
 
-h5 {
+.smallHeading {
   color: rgb(255, 245, 222);
   font-family: textFontHeavy;
   font-size: 2vw;
-  margin: 0%;
+  margin-top: 0vw;
+  text-align: left;
 }
 
 p {
@@ -119,6 +120,7 @@ p {
   font-family: headerFont;
   float: right;
   padding: 0.01vw 2.5vw;
+  animation: none;
 }
 
 .websiteNameFooter {
@@ -126,8 +128,9 @@ p {
   font-size: 1.5vw;
   font-family: headerFont;
   position: absolute;
-  right: 15vw;
-  bottom: 0.1vw;
+  right: 14.5vw;
+  bottom: 1vw;
+  margin-top: 0vw;
 }
 
 .message1 {
