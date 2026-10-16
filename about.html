@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Digital Technologies Level 3 Project">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Samantha Isabelle De Guzman">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About | TimeCheck!</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="images/TimeCheck!.png">
+    </head>
+    <body>
+        <div class = "topnav">
+            <img src = "images/logo.png" alt = "logo" class = "logo">
+            <a href = "index.html">Home</a>
+            <a href = "overview.html">Overview</a>
+            <a href = "calculator.html">Calculator</a>
+            <a href = "about.html" class = "active">About</a>
+            <h1 class = "websiteName">TimeCheck!</h1>
+        </div>
+        <div> 
+            <div class = "topnavBorder"></div>
+            <h1>What Really is The Problem TimeCheck Wants to Address?</h1>
+            <p class = "message1">Read the details about a study done by the University of Otago below.</p>
+        </div>
+        <div>
+            <p class = "paragraph1">
+                University of Otago researchers found that New Zealand 12-year-olds spend a third of their after-school time on screens, often exceeding 8 p.m., in a New Zealand Medical Journal study. 
+                Dr. Moira Smith reports this excessive use, which frequently involves popular platforms like YouTube and TikTok, contributes to poor physical and mental health, including obesity and exposure to bullying.
+                <br><br>
+                With current legislation deemed outdated, researchers are calling for urgent regulation to protect children from online harms, including harmful marketing and inappropriate content. 
+                While acknowledging proposed social media regulations from the Department of Internal Affairs (DIA), experts emphasize the need for modernized protection to safeguard children's wellbeing. 
+                <br><br>
+                For more details, visit the <a href = "https://www.otago.ac.nz/news/newsroom/kids-spending-one-third-of-after-school-time-on-screens-study-finds" target = "_blank" class = "otago">University of Otago</a>'s research publication.
+            </p>
+            <img src = "images/moiraSmith.jpg" alt = "moiraSmith" class = "moiraSmith">
+        </div>
+        <div class = "feedbackContainer">
+            <h1>We Value Your Feedback!</h1>
+            <p class = "message2">Leave your suggestions, ideas, or concerns below.</p>
+            <form action = "https://formspree.io/f/xdenwken" method = "POST">
+                <div class = "formGroup">
+                    <label for = "userName">Name (Optional): </label>
+                    <input type = "text" id = "userName" name = "name" placeholder = "e.g., Jane Doe">
+                </div>
+                <div class = "formGroup">
+                    <label for = "userEmail">Email (Optional): </label>
+                    <input type = "email" id = "userEmail" name = "email" placeholder = "e.g., jane@example.com">
+                </div>
+                <div class = "formGroup">
+                    <label for = "userFeedback">Your Feedback: <span class = "required">*</span></label>
+                    <textarea id = "userFeedback" name = "suggestion" rows = "5" required placeholder = "Type your feedback here..."></textarea>
+                </div>
+                <button type = "submit" class = "submitButton">Submit Feedback</button>
+            </form>
+        </div>
+        <footer>
+            <div class = "footerInfo">
+                <h2 class = "smallHeading">Contact Us!</h2>
+                <div class = "contactInfo">
+                    <img src = "images/email.png" alt = "email" class = "emailIcon">
+                    <p class = "contactInfo">samanthaisabelle_deg@student.asdah.school.nz<p>
+                </div>
+                <div class = "contactInfo">
+                    <img src = "images/phone.png" alt = "phone" class = "phoneIcon">
+                    <p class = "contactInfo">0220873229</p>
+                </div>
+                <p class = "copyrightInfo">©2026 by Samantha Isabelle De Guzman</p>
+            </div>
+            <div class = "footerRedirectory">
+                <h2 class = "smallHeading"><a href = "about.html" class = "feedbackRedirect">Send Us Your Feedback!</a></h2>
+                <p class = "feedbackDesc">Your suggestions, ideas, and concerns will definitely help improve the website.</p>
+                <h2 class = "smallHeading">Input, Compute, Explore!</h2>
+                <p class = "desc">With your daily time on your phone, turn it into more meaningful and fun moments.</p>
+            </div>
+            <img src = "images/logo.png" alt = "logo" class = "footerLogo">
+            <h2 class = "websiteNameFooter">TimeCheck!</h2>
+        </footer>
+    </body>
+</html>
